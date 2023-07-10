@@ -102,7 +102,6 @@
 .logo-section {
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
     padding: 35px;
     background-color: #F4F4F4;
     width: 70%;
@@ -119,4 +118,23 @@
 }
 .logo-title{
     padding: 10px;
+}
+/* Hot deal section */
+
+.deal-container{
+    background-color: #FEF6F8;
+    margin-top: 50px;
+}
+.deal{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+}
+.deal-info{
+    text-align: center;
+}
+.text-primary{
+    color: #E55473;
 }
